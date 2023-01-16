@@ -1,0 +1,86 @@
+.home {
+    background-image: linear-gradient(to right, #253838, #537272);
+}
+#homeDetails {
+    box-shadow: 2px 10px 20px 20px  rgb(54, 54, 50);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 3rem auto;
+    color: white;
+    padding: 50px 80px;
+}
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+#personalDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.homedetailsBody {
+    padding: 20px 200px;
+    font-size: 1.4rem;
+}
+
+.homedetailsBody img {
+    width: 330px;
+    height: 400px;      
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.nonListStyle div ul li {
+    list-style: none;
+}
+
+#personalDetails div ul li {
+    margin: 0.5rem 1rem;
+}
+
+.homedetailsBody>h3 {
+    font-weight: lighter;
+}
+
+.homedetailsBody>hr {
+    margin: 1.5rem 0rem;
+}
+
+.fa-person {
+    margin-right: 6px;
+}
+
+.fa-hand>span {
+    margin-left: 20px;
+}
+/* .info{
+    margin: 0px 10px;
+} */
+.flexColoum{
+    display: flex;
+    flex-direction: column;
+}
+#resumeDownload{
+    position:absolute;   
+    margin-left: 80vw;
+    background-color: rgba(32, 54, 102, 0.651);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    /* font-weight: bold; */
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: .4s ease-in;
+}
+
+#resumeDownload:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+}
+
+
+.PageSize {
+    position: relative;
+    height: 100vh;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 20px 20px;
+    padding: 20px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(216, 212, 212);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #00a78e;
+}
+
+.sec {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.sec:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.sec:hover:after {
+    width: 100%;
+    background: #00a78e;
+}
+.ContactSticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}

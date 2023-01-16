@@ -1,0 +1,19 @@
+#footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer i{
+    color: white;
+    padding: 10px;
+}
+#footer i:hover{
+    color: #00a78e;
+}
+#links{
+    margin-top: 1rem;
+}

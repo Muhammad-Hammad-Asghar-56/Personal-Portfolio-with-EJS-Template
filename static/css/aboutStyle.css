@@ -1,0 +1,98 @@
+#about{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+}
+#imageArea{
+    max-height:100vh ;
+    /* background-color: aqua; */
+}
+#introParagraph{
+    font-size: 20px;
+}
+#dotArea{
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    height: 50%;
+    margin: auto;
+}
+#dotArea li {
+    list-style: none;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(97, 95, 95);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 0px;
+}
+#contentArea{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px; */
+    /* background-color: rgb(1, 5, 7); */
+}
+#imageArea img {
+    width: 100%;
+    height: 100%; 
+}
+.contentBlock{
+    /* border: 1px solid black;
+    background-color: gray; */
+    /* border-radius: 20%; */
+    height: 500px;
+    width: 450px;
+    z-index: 1;
+}
+.contentBlock section{
+    padding: 75px 10px;
+    align-items:none;
+    justify-content: left;
+    margin: auto 0px;
+}
+.contentBlock section .number{
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: right;
+    opacity: 0.3;
+    z-index: -1;
+    display: inline;
+}
+.contentBlock section .title{
+    font-size: 3rem;
+    font-weight: lighter;
+    padding:20px 0px;
+}
+#contentBlockButtons li{
+    margin:50px 0px;
+    margin-right: 20px;
+    list-style: none;
+}
+#contentBlockButtons li a{
+    border: 2px solid rgb(63, 62, 62);
+    border-radius: 10%;
+    color: rgb(63, 62, 62);
+    /* box-shadow: 2px 5px rgb(63, 62, 62); */
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    transition: all 0.5s ease-in-out 0.2s;
+}
+
+
+#contentBlockButtons li a:hover{
+background-color:#4f6c6c;
+color: aliceblue;
+}
