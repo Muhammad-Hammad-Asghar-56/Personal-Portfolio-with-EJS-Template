@@ -17,3 +17,40 @@
 #links{
     margin-top: 1rem;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    /* CSS for devices with a maximum width of 768px or less */
+    /* Adjust styles as needed */
+  
+    #footer {
+      padding: 30px;
+    }
+  
+    #footer p {
+      font-size: 12px;
+    }
+  
+    #links {
+      margin-top: 0.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* CSS for devices with a maximum width of 480px or less */
+    /* Adjust styles as needed */
+  
+    #footer {
+      padding: 20px;
+    }
+  
+    #footer p {
+      font-size: 10px;
+    }
+  
+    #links {
+      margin-top: 0.3rem;
+    }
+  }
+  

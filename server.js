@@ -6,8 +6,30 @@ const bodyParser = require('body-parser');
 
 // const admin = require('firebase-admin');
 // admin.initializeApp(functions.config().firebase);
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-const app=express();
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDoDhNO7aDHqHJO8qmDTFVK9wgoOzNwieM",
+  authDomain: "personalportfolio-374716.firebaseapp.com",
+  projectId: "personalportfolio-374716",
+  storageBucket: "personalportfolio-374716.appspot.com",
+  messagingSenderId: "662752414558",
+  appId: "1:662752414558:web:62053ecdd5d30350e29dcf",
+  measurementId: "G-MW3Q2ZNNXV"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
 const port=80;
 app.set('view engine', 'ejs');
 app.use(express.static('static'));

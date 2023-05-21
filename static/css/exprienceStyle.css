@@ -83,3 +83,50 @@
 .ExprienceBlock p {
     padding: 10px;
 }
+
+
+@media screen and (max-width: 768px) {
+    /* CSS for devices with a maximum width of 768px or less */
+    /* Adjust styles as needed */
+  
+    #experienceTimeline {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    #yearList {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    #exprienceList {
+      width: 100%;
+    }
+  
+    .ExprienceBlock {
+      margin: 10px 0;
+    }
+  
+    .ExprienceBlock::before {
+      top: 20px;
+      left: 50%;
+    }
+  
+    .ExprienceBlock h1 {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* CSS for devices with a maximum width of 480px or less */
+    /* Adjust styles as needed */
+  
+    .ExprienceBlock h1 {
+      font-size: 16px;
+    }
+  
+    .ExprienceBlock p {
+      font-size: 14px;
+    }
+  }
+  
